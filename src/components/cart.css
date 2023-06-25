@@ -32,6 +32,23 @@ i {
   cursor: pointer;
 }
 
+._3704LK {
+  padding: 3px 35px;
+    border-radius: 20px 20px 20px 20px;
+    border: 0;
+    outline: 0 none;
+    font-size: 16px;
+    height: 44px;
+    width: 128%;
+    background-color: #ed143d85;
+    box-shadow: rgba(0, 0, 0, 0.08) 0rem 0.4rem 1.2rem;
+    margin-left: -290px;
+}
+.NEW{
+  width: 100%;
+  
+}
+
 body {
   width: 80%;
   height: 100vh;
@@ -41,7 +58,7 @@ body {
 header {
     width: 100%;
     line-height: 8rem;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     border-bottom: 0.2rem solid #9a9191;
     transform: rotate(-0.05deg);
@@ -52,6 +69,7 @@ header {
   display: flex;
   height: inherit;
   align-items: center;
+  width: 100%;
 }
 
 .continue-shopping .arrow-icon {
@@ -74,6 +92,7 @@ header {
   align-items: center;
   position: relative;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .cart-icon img {

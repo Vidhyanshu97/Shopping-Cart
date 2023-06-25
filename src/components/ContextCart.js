@@ -37,9 +37,11 @@ const ContextCart = () => {
       <header>
         <div className="continue-shopping">
           <img src="./images/arrow.png" alt="arrow" className="arrow-icon" />
-          <h3>continue shopping</h3>
+          <h3>GoBack</h3>
         </div>
-
+        <div className="NEW">
+        <input className="_3704LK" type="text" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value=""></input>
+        </div>
         <div className="cart-icon">
           <img src="./images/cart.png" alt="cart" />
           <p>{totalItem}</p>
@@ -47,7 +49,7 @@ const ContextCart = () => {
       </header>
 
       <section className="main-cart-section">
-        <h1>shopping Cart</h1>
+        <h1>Cart</h1>
         <p className="total-items">
           you have <span className="total-items-count">{totalItem} </span> items
           in shopping cart
